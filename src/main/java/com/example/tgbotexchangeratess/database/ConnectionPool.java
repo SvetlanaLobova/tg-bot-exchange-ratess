@@ -23,7 +23,7 @@ public class ConnectionPool {
         Properties properties = new Properties();
         try {
             FileReader reader =
-                    new FileReader("C:/Users/svetl/IdeaProjects/tg-bot-exchange-ratess/target/classes/database.properties");
+                    new FileReader("src/main/resources/database.properties");
             properties.load(reader);
             return properties;
         } catch (IOException e) {
